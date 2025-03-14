@@ -1,0 +1,47 @@
+{
+  "provider_name": "Deeyar TV",
+  "last_updated": "2025-03-13T12:00:00Z",
+  "language": "en",
+  "live_tv": [
+    {
+      "id": "deeyar_tv_live",
+      "title": "Deeyar TV Live",
+      "short_description": "Watch Deeyar TV’s latest news, politics, entertainment, and more.",
+      "long_description": "Deeyar TV provides 24/7 streaming of news, political discussions, cultural programs, entertainment, and music shows.",
+      "thumbnail": "https://raw.githubusercontent.com/Deeyar-tv/DTV/main/DTV.png",
+      "genres": [
+        "News",
+        "Entertainment",
+        "Music"
+      ],
+      "release_date": "2025-03-13",
+      "content": {
+        "date_added": "2025-03-13T12:00:00Z",
+        "duration": 9999999,
+        "ad_breaks": []
+      },
+      "free": true,
+      "tvod": false,
+      "svod": false,
+      "live_stream": {
+        "url": "https://59d39900ebfb8.streamlock.net/viet-sports/viet-sports/playlist.m3u8",
+        "format": "hls"
+      },
+      "tags": [
+        "News",
+        "Live",
+        "Afghanistan"
+      ],
+      "roku_directed": true
+    }
+  ],
+  "movies": [],
+  "series": [],
+  "additional_feeds": [
+    {
+      "id": "roku_feed_ds",
+      "title": "Deeyar TV Additional Feed",
+      "feed_url": "https://raw.githubusercontent.com/Deeyar-tv/roku-feed-ds-/refs/heads/main/roku-feed%20ds%20.json"
+    }
+  ]
+}
